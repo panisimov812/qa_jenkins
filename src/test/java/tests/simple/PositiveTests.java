@@ -1,37 +1,42 @@
-package simple;
+package tests.simple;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class FailedTests {
+public class PositiveTests {
     @Test
     void test00() {
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
     void test01() {
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
     void test02() {
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
     void test03() {
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
     void test04() {
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
     void test05() {
-        assertTrue(false);
+        assertTrue(true);
+    }
+
+    @Test
+    void test06() {
+        assertTrue(true);
     }
 }

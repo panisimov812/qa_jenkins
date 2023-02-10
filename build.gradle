@@ -50,6 +50,7 @@ tasks.withType(Test) {
     }
 }
 
+//запуск по тегу
 task demoqa_tests(type: Test) {
     useJUnitPlatform{
         includeTags "demoqa"

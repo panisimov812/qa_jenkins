@@ -27,6 +27,7 @@ allure {
 }
 
 dependencies {
+    implementation 'com.codeborne:selenide:6.11.2'
     testImplementation(
             "com.codeborne:selenide:$selenideVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
